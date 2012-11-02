@@ -6,7 +6,8 @@
  * To change this template use File | Settings | File Templates.
  */
 (function (mcore) {
-    mcore.Image = function () {
+
+    var _imgOperate = function () {
         return{
             preLoadImages:function (arr) {
                 var newimages = [], loadedimages = 0;
@@ -19,7 +20,9 @@
                     if (loadedimages == arr.length) {
                         postaction(newimages)
                     }
-                };
+                }
+
+                ;
                 for (var i = 0; i < arr.length; i++) {
                     newimages[i] = new Image();
                     newimages[i].src = arr[i];
@@ -38,5 +41,7 @@
             }
         };
     };
+
+    mcore.Image = new _imgOperate();
 
 })(mCore);
