@@ -5,7 +5,11 @@
  * Time: 12:19 PM
  * To change this template use File | Settings | File Templates.
  */
-(function () {
+(function (window) {
+
+    var window = window;
+    var document =window.document;
+
     var mcore = function () {
         return{
             extend:function (subClass, superClass) {
@@ -50,14 +54,16 @@
                             script.onreadystatechange = null;
                             callback();
                         }
-                    };
+                     };
                 } else { //Others
                     script.onload = function () {
                         callback();
                     };
+
                 }
                 script.src = url;
-                document.getElementsByTagName_r("head")[0].appendChild(script);
+                document.getElementsByTagName("head")[0].appendChild(script);
+                return this;
             }
 
         };
@@ -71,4 +77,4 @@
         });
     }
 
-})();
+})(window);
