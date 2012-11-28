@@ -13,20 +13,17 @@
     var mcore = function () {
         return{
             extend:function (subClass, superClass) {
-                var F = function () {
-                };
+                var F = function () { };
                 F.prototype = superClass.prototype;
                 subClass.prototype = new F();
                 subClass.prototype.constructor = subClass;
-
                 subClass.superclass = superClass.prototype;
                 if (superClass.prototype.constructor == Object.prototype.constructor) {
                     superClass.prototype.constructor = superClass;
-                }
+                };
             },
             clone:function (cloneClass) {
-                var F = function () {
-                };
+                var F = function () {  };
                 F.prototype = cloneClass;
                 return new F();
             },
@@ -46,7 +43,7 @@
                 }
             },
             loadScript:function (url, callback) {
-                var script = document.createElement("script")
+                var script = document.createElement("script");
                 script.type = "text/javascript";
                 if (script.readyState) { //IE
                     script.onreadystatechange = function () {
