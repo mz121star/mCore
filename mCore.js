@@ -77,7 +77,7 @@
 
     if (typeof define === "function" && define.amd && define.amd.mCore) {
         define("mCore", [], function () {
-            return m;
+             mcore();
         });
     }
 
