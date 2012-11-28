@@ -1,4 +1,4 @@
 mCore
 =====
 
-mCore is a Javascript base library¡£
+mCore is a Javascript base library

@@ -32,7 +32,7 @@
             },
             augment:function (receivingClass, givingClass, params) {
                 if (params) {
-                    console.log('ä¼ è¿›æ¥çš„å‚æ•°ä¸º:' + params.join(','));
+                    console.log('' + params.join(','));
                     for (var i = 0, len = params.length; i < len; i++) {
                         receivingClass.prototype[params[i]] = givingClass.prototype[params[i]];
                     }

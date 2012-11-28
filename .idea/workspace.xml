@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef2bb4f0-5b0f-4a77-809b-d8e7dc581330" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mCore.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uglify.cmd" />
-      <change type="DELETED" beforePath="F:\mCore\mCore-1.1.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sample.html" afterPath="$PROJECT_DIR$/Sample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mCore.image.js" afterPath="$PROJECT_DIR$/mCore.image.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mCore.js" afterPath="$PROJECT_DIR$/mCore.js" />
     </list>
     <ignored path="mCore.iws" />
@@ -29,10 +24,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mCore.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="mCore.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mCore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="4" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+            <state line="73" column="0" selection-start="2791" selection-end="2791" vertical-scroll-proportion="1.4187192">
               <folding />
             </state>
           </provider>
@@ -41,13 +36,22 @@
       <file leaf-file-name="uglify.cmd" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uglify.cmd">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="9" selection-end="69" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mCore.min.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="34" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mCore.min.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mCore.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="1461" vertical-scroll-proportion="0.0">
@@ -68,7 +72,7 @@
       <file leaf-file-name="Sample.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sample.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="7" selection-start="381" selection-end="381" vertical-scroll-proportion="-9.807693">
+            <state line="8" column="0" selection-start="126" selection-end="373" vertical-scroll-proportion="-5.230769">
               <folding />
             </state>
           </provider>
@@ -97,9 +101,10 @@
         <option value="$PROJECT_DIR$/mCore-1.1.js" />
         <option value="$USER_HOME$/Desktop/工作/demo/index2.html" />
         <option value="$PROJECT_DIR$/Sample.html" />
-        <option value="$PROJECT_DIR$/mCore.js" />
         <option value="$PROJECT_DIR$/mCore.image.js" />
         <option value="$PROJECT_DIR$/uglify.cmd" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/mCore.js" />
       </list>
     </option>
   </component>
@@ -211,17 +216,22 @@
       <created>1352166253762</created>
       <updated>1352166253762</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added a is_array function in mCore">
+      <created>1354088689469</created>
+      <updated>1354088689469</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.6715909" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.6715909" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -231,7 +241,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -272,7 +281,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compress" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a is_array function in mCore" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -287,6 +296,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="added mCore core" />
     <MESSAGE value="Compress" />
+    <MESSAGE value="added a is_array function in mCore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -311,19 +321,21 @@
         <state line="7" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/工作/demo/index2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="19" selection-start="2419" selection-end="2421" vertical-scroll-proportion="0.3842303" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mCore.js">
+    <entry file="file://$PROJECT_DIR$/mCore.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="1461" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uglify.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -337,21 +349,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sample.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="381" selection-end="381" vertical-scroll-proportion="-9.807693">
+        <state line="8" column="0" selection-start="126" selection-end="373" vertical-scroll-proportion="-5.230769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uglify.cmd">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="9" selection-end="69" vertical-scroll-proportion="0.0">
+        <state line="3" column="34" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mCore.min.js">
+    <entry file="file://$PROJECT_DIR$/mCore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1461" vertical-scroll-proportion="0.0">
+        <state line="73" column="0" selection-start="2791" selection-end="2791" vertical-scroll-proportion="1.4187192">
           <folding />
         </state>
       </provider>
