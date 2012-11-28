@@ -64,12 +64,16 @@
                 script.src = url;
                 document.getElementsByTagName("head")[0].appendChild(script);
                 return this;
+            },
+            is_array:function(value){
+                return value && typeof value === 'object' && typeof  value.length === 'number' && typeof value.splice === 'function' && !(value.propertyIsEnumerable('length'));
             }
 
         };
     };
-    var m = new mcore();
-    window.mCore = window.m$ = m;
+
+    //var m = new mcore();
+    window.mCore = window.m$ = mcore();
 
     if (typeof define === "function" && define.amd && define.amd.mCore) {
         define("mCore", [], function () {

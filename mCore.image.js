@@ -42,6 +42,6 @@
         };
     };
 
-    mcore.Image = new _imgOperate();
 
+     mcore.Image =  _imgOperate ;
 })(mCore);
