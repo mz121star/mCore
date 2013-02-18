@@ -8,22 +8,25 @@
 (function (window) {
 
     var window = window;
-    var document =window.document;
+    var document = window.document;
 
     var mcore = function () {
         return{
             extend:function (subClass, superClass) {
-                var F = function () { };
+                var F = function () {
+                };
                 F.prototype = superClass.prototype;
                 subClass.prototype = new F();
                 subClass.prototype.constructor = subClass;
                 subClass.superclass = superClass.prototype;
                 if (superClass.prototype.constructor == Object.prototype.constructor) {
                     superClass.prototype.constructor = superClass;
-                };
+                }
+                ;
             },
             clone:function (cloneClass) {
-                var F = function () {  };
+                var F = function () {
+                };
                 F.prototype = cloneClass;
                 return new F();
             },
@@ -51,7 +54,7 @@
                             script.onreadystatechange = null;
                             callback();
                         }
-                     };
+                    };
                 } else { //Others
                     script.onload = function () {
                         callback();
@@ -62,8 +65,14 @@
                 document.getElementsByTagName("head")[0].appendChild(script);
                 return this;
             },
-            is_array:function(value){
+            is_array:function (value) {
                 return value && typeof value === 'object' && typeof  value.length === 'number' && typeof value.splice === 'function' && !(value.propertyIsEnumerable('length'));
+            },
+            getStyle:function (obj, style) {
+                var _style = (style == "float") ? "styleFloat" : style;
+                return document.defaultView ? document.defaultView.getComputedStyle(obj, null).getPropertyValue(style) : obj.currentStyle[_style.replace(/-[a-z]/g, function () {
+                    return arguments[0].charAt(1).toUpperCase();
+                })];
             }
 
         };
@@ -74,7 +83,7 @@
 
     if (typeof define === "function" && define.amd && define.amd.mCore) {
         define("mCore", [], function () {
-             mcore();
+            mcore();
         });
     }
 
