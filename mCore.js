@@ -45,6 +45,7 @@
                     }
                 }
             },
+            //异步载入脚本
             loadScript:function (url, callback) {
                 var script = document.createElement("script");
                 script.type = "text/javascript";
@@ -65,9 +66,16 @@
                 document.getElementsByTagName("head")[0].appendChild(script);
                 return this;
             },
+            //判断是否为数组
             is_array:function (value) {
                 return value && typeof value === 'object' && typeof  value.length === 'number' && typeof value.splice === 'function' && !(value.propertyIsEnumerable('length'));
             },
+            type_of:function (o) {
+                if(o===null) return "Null";
+                if(o===undefined) return "Undefined";
+                return Object.prototype.toString.call(o).slice(8,-1);
+            },
+            //获取动态生成的样式
             getStyle:function (obj, style) {
                 var _style = (style == "float") ? "styleFloat" : style;
                 return document.defaultView ? document.defaultView.getComputedStyle(obj, null).getPropertyValue(style) : obj.currentStyle[_style.replace(/-[a-z]/g, function () {
@@ -78,7 +86,7 @@
         };
     };
 
-    //var m = new mcore();
+//var m = new mcore();
     window.mCore = window.m$ = mcore();
 
     if (typeof define === "function" && define.amd && define.amd.mCore) {
@@ -87,4 +95,5 @@
         });
     }
 
-})(window);
+})
+    (window);
